@@ -1,0 +1,14 @@
+﻿<Window x:Class="SkeletonCounter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SkeletonCounter"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525" Loaded="Window_Loaded" Closed="Window_Closed">
+    <Grid>
+        <TextBlock x:Name="counterTextBlock" HorizontalAlignment="Left" Margin="220,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="2.361,0.537" FontSize="20" Text="Counter"/>
+        <TextBlock x:Name="fpsTextBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="FPS" VerticalAlignment="Top" RenderTransformOrigin="0.467,-9.982"/>
+
+    </Grid>
+</Window>
